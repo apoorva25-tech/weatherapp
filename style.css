@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #87CEEB;
+}
+
+.weather-container {
+    margin-top: 100px;
+     width: 90%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.night {
+    background-color: #121212;
+    color: white;
+}
+
+#weatherResult {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+
+    h2 {
+        font-size: 22px;
+    }
+
+    input {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 85%;
+        margin-top: 5px;
+    }
+
+}
